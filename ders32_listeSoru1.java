@@ -24,7 +24,7 @@ public class ders32_listeSoru1 {
 	
 	static int toplam(ArrayList<Integer> liste){
 		int toplam = 0;
-		for(int i:liste) { //l listesinin elemanlarını tek tek alıp i değişkenine atar
+		for(int i:liste) { //l listesinin elemanlarÃ½nÃ½ tek tek alÃ½p i deÃ°iÃ¾kenine atar
 			toplam += i;
 		}
 		return toplam;
@@ -32,12 +32,12 @@ public class ders32_listeSoru1 {
 	
 
 	public static void main(String[] args) {
-		// 50 ile 100 arasında rastgele 100
-		// sayıdan oluşan bir listenin içerisinde 
-		// 5'e tam bölünen sayıları yeni bir listeye aktarınız
-		// ortalamasını bulunuz?
-		// method kullanarak çözelim
-		ArrayList<Integer> l = uret(50, 100, 10);
+		// 50 ile 100 arasÃ½nda rastgele 100
+		// sayÃ½dan oluÃ¾an bir listenin iÃ§erisinde 
+		// 5'e tam bÃ¶lÃ¼nen sayÃ½larÃ½ yeni bir listeye aktarÃ½nÃ½z
+		// ortalamasÃ½nÃ½ bulunuz?
+		// method kullanarak Ã§Ã¶zelim
+		ArrayList<Integer> l = uret(50, 100, 100);
 		System.out.println(l);
 		ArrayList<Integer> b = bolunen(5, l);
 		System.out.println(b);
