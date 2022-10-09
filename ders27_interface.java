@@ -1,16 +1,16 @@
 package alg22no;
 
 interface Arayuz {
-	//interface - arayüz sınıf benzeri yapılardır.
-	//nesnesi oluşturulamaz
-	// sınıflara miras verbilirler
+	//interface - arayÃ¼z sÃ½nÃ½f benzeri yapÃ½lardÃ½r.
+	
+	// sÃ½nÃ½flara miras verbilirler
 	void belirtec();
 	void isaretci();
 }
 
 class Mirasci implements Arayuz{
 
-	//Interface içindeki tüm methodlar subclassta tanımlanmak zorundadır.
+	//Interface iÃ§indeki tÃ¼m methodlar subclassta tanÃ½mlanmak zorundadÃ½r.
 	
 	@Override
 	public void belirtec() {
@@ -31,7 +31,7 @@ class Mirasci implements Arayuz{
 public class ders27_interface {
 
 	public static void main(String[] args) {
-		//Arayuz arayuz = new Arayuz();  Interface'lerin nesnesi tanımlanamaz
+		//Arayuz arayuz = new Arayuz();  
 		
 		Mirasci m = new Mirasci();
 		m.belirtec();
